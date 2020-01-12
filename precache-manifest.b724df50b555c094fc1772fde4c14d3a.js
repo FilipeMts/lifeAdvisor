@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b98dddcdf1e6d84ea81576d9c6df7548",
+    "revision": "659232104a655da39276416e159a8308",
     "url": "/lifeAdvisor/index.html"
   },
   {
-    "revision": "c2b671091bf52e0c6880",
+    "revision": "53d3d1b562655b0a36fb",
     "url": "/lifeAdvisor/static/css/main.93ce207e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lifeAdvisor/static/js/2.4ce34c2d.chunk.js"
   },
   {
-    "revision": "c2b671091bf52e0c6880",
-    "url": "/lifeAdvisor/static/js/main.619898ed.chunk.js"
+    "revision": "53d3d1b562655b0a36fb",
+    "url": "/lifeAdvisor/static/js/main.11ed7bd3.chunk.js"
   },
   {
     "revision": "24c095adcfd5c0c5fdad",
