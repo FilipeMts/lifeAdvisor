@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lifeAdvisor/static/css/main.93ce207e.chunk.css",
+    "main.js": "/lifeAdvisor/static/js/main.619898ed.chunk.js",
+    "main.js.map": "/lifeAdvisor/static/js/main.619898ed.chunk.js.map",
+    "runtime~main.js": "/lifeAdvisor/static/js/runtime~main.d91b1e5b.js",
+    "runtime~main.js.map": "/lifeAdvisor/static/js/runtime~main.d91b1e5b.js.map",
+    "static/js/2.4ce34c2d.chunk.js": "/lifeAdvisor/static/js/2.4ce34c2d.chunk.js",
+    "static/js/2.4ce34c2d.chunk.js.map": "/lifeAdvisor/static/js/2.4ce34c2d.chunk.js.map",
+    "index.html": "/lifeAdvisor/index.html",
+    "precache-manifest.45990264697d8f1329dabf2c277a810c.js": "/lifeAdvisor/precache-manifest.45990264697d8f1329dabf2c277a810c.js",
+    "service-worker.js": "/lifeAdvisor/service-worker.js",
+    "static/css/main.93ce207e.chunk.css.map": "/lifeAdvisor/static/css/main.93ce207e.chunk.css.map"
+  }
+}
