@@ -1,0 +1,15 @@
+@import "../../UI/variables.scss";
+
+.navbar {
+    height: 8vh;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: $primary-color;    
+
+    .logo {
+        color: #FFFFFF;    
+        font-size: 2em; 
+    }
+}

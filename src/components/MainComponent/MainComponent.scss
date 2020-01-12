@@ -1,0 +1,64 @@
+@import "../../UI/variables.scss";
+
+.container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    z-index: 100;
+
+    .quoteWrapper {
+        width: 100%;
+        min-height: auto;    
+        background-color: $secondary-color;
+        border-radius: 5px;
+    
+        .quotes {
+            margin: 1rem 0;
+            padding: 0 .5em;
+            font-family: $primary-font-family, Tahoma, sans-serif;
+            font-size: 2em;
+        }
+        
+        .quoteMarkUp {
+            text-align: left;
+        }
+    
+        .quoteMarkDown {
+            text-align: right;
+        }
+    }
+    
+    .getMore {
+        margin: 10px auto;
+        font-family: $secondary-font-family;
+        font-size: 1em;    
+        padding: 0.5rem 1.5rem;
+        background-color: $primary-color;
+        border: none;
+        color: #ffffff;    
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+@media (min-width: 720px) {
+    .quotes {
+        font-size: 3em !important;
+    }
+    .getMore {
+        &:hover {
+            box-shadow: 0 0 10px $primary-color;
+        }
+    }
+};

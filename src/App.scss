@@ -1,0 +1,32 @@
+@import "./UI/variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;   
+  overflow-y: hidden;
+
+  main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+  
+      .background {
+        height: 90%;
+        width: 100%;
+        background-color: $tertiary-color;
+        -webkit-clip-path: polygon(0 0, 0% 96.4%, 100% 0);
+        clip-path: polygon(0 0, 0% 96.4%, 100% 0); 
+        position: absolute;
+        z-index: -1;   
+      }
+  }
+}

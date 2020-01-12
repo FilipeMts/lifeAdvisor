@@ -1,0 +1,15 @@
+@import "../../UI/variables.scss";
+
+.footer {
+    background-color: $primary-color;
+    min-height: 5.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $secondary-font-family;
+
+    .author {
+        text-decoration: none;
+        color: #FFFFFF;  
+    }
+}
